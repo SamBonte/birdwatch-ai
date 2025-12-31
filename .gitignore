@@ -97,3 +97,9 @@ docker-compose.override.yml
 # =========================
 tmp/
 temp/
+
+# =========================
+# Other
+# =========================
+src/birdwatch_ai/data/*
+src/birdwatch_ai/models/*
