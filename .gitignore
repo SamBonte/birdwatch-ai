@@ -99,6 +99,5 @@ temp/
 # =========================
 # Other
 # =========================
-src/birdwatch_ai/data/bird-species-classification-220-categories/
-src/birdwatch_ai/data/birds_filtered_25/
+src/birdwatch_ai/data/
 src/birdwatch_ai/models/
