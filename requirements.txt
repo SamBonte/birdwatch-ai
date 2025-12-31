@@ -1,0 +1,10 @@
+tensorflow>=2.12 # without vercel
+gdown
+numpy
+matplotlib
+seaborn
+scikit-learn
+kagglehub
+fastapi
+uvicorn[standard]
+python-multipart

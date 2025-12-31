@@ -1,0 +1,22 @@
+# .dockerignore
+
+# Ignore git
+.git
+.gitignore
+
+# Ignore local python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore Data (Too large for the image)
+# We usually mount these or download them, rather than baking them in
+data/
+
+# Ignore Jupyter notebooks if any
+*.ipynb
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store

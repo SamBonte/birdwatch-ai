@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "src/birdwatch_ai/serve.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "src/birdwatch_ai/serve.py"
+        }
+    ]
+}

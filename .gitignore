@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+src/birdwatch_ai.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data (DO NOT COMMIT DATASETS)
+# =========================
+data/raw/
+data/processed/
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Models & Artifacts
+# =========================
+models/*.keras
+models/*.h5
+models/*.onnx
+models/*.pt
+models/*.pth
+models/*.joblib
+models/*.pkl
+
+# Metrics & plots
+models/*.png
+models/*.jpg
+models/*.json
+models/*.csv
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+secrets/
+kaggle.json
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# FastAPI / Server
+# =========================
+*.uvicorn.log
+
+# =========================
+# Temporary / Scratch
+# =========================
+tmp/
+temp/
