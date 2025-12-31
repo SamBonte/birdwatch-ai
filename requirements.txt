@@ -1,5 +1,4 @@
-tensorflow>=2.12 # without vercel
-gdown
+tensorflow>=2.12
 numpy
 matplotlib
 seaborn
